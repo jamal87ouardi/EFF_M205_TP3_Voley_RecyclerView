@@ -10,6 +10,8 @@ import com.android.volley.toolbox.Volley
 import org.json.JSONArray
 import org.json.JSONObject
 
+
+data class Movie(val id: Int, val name: String, val price: Double, val image: String)
 class MainActivity : AppCompatActivity() {
 
     var sa = JSONArray()
